@@ -5,7 +5,7 @@ In the initial version I introduced string extensions to allow for the static Fo
 "Standard Format Example: Hex: 0x{0:X8}".Format(110);
 
 And a Python style named argument version:
-[0x{location:X8}] {function}({type} bar)".Format(new Dictionary<string, object>()
+"[0x{location:X8}] {function}({type} bar)".Format(new Dictionary<string, object>()
                 {
                     {"function", "Foo"},
                     {"type", "int"},
